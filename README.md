@@ -27,3 +27,4 @@ xilankong, young.huang@jfz.com
 ## License
 
 YangCarouselView is available under the MIT license. See the LICENSE file for more info.
+# YangCarouselView
