@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface YangViewController : UIViewController
+#import "YangCarouselView.h"
+
+@interface YangViewController : UIViewController<YangCarouselViewDelegate>
 
 @end

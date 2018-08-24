@@ -59,12 +59,12 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		6011281EDFB96D1F370C2312 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6011281EDFB96D1F370C2312 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6EF71E46C1C07F22D9564DC4 /* YangCarouselView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YangCarouselView.podspec; path = ../YangCarouselView.podspec; sourceTree = "<group>"; };
+		6EF71E46C1C07F22D9564DC4 /* YangCarouselView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YangCarouselView.podspec; path = ../YangCarouselView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C52EDF7029F63456B75AF7 /* Pods-YangCarouselView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangCarouselView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangCarouselView_Example/Pods-YangCarouselView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		857DC5B55E852CB2E045575E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		857DC5B55E852CB2E045575E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC0AB8C48EDA0F954104327F /* Pods_YangCarouselView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangCarouselView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -247,7 +247,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = xilankong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8738YWRZYU;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 8738YWRZYU;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -485,6 +489,7 @@
 			baseConfigurationReference = 175203AA513915F60299D778 /* Pods-YangCarouselView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8738YWRZYU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YangCarouselView/YangCarouselView-Prefix.pch";
 				INFOPLIST_FILE = "YangCarouselView/YangCarouselView-Info.plist";
@@ -500,6 +505,7 @@
 			baseConfigurationReference = 79C52EDF7029F63456B75AF7 /* Pods-YangCarouselView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8738YWRZYU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YangCarouselView/YangCarouselView-Prefix.pch";
 				INFOPLIST_FILE = "YangCarouselView/YangCarouselView-Info.plist";
@@ -515,6 +521,7 @@
 			baseConfigurationReference = 401F8C15C25C0C342033D2FC /* Pods-YangCarouselView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8738YWRZYU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -539,6 +546,7 @@
 			baseConfigurationReference = 3A28F70DAC25085403C7C17E /* Pods-YangCarouselView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8738YWRZYU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

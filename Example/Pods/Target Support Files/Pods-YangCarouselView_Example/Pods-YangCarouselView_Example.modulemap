@@ -1,0 +1,6 @@
+framework module Pods_YangCarouselView_Example {
+  umbrella header "Pods-YangCarouselView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

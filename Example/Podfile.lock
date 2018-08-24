@@ -1,0 +1,16 @@
+PODS:
+  - YangCarouselView (0.1.0)
+
+DEPENDENCIES:
+  - YangCarouselView (from `../`)
+
+EXTERNAL SOURCES:
+  YangCarouselView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YangCarouselView: aab73a064b949add9b94292db4584d263b3cecd6
+
+PODFILE CHECKSUM: 2f70fbd651ae06d09f0875238d521309f84b048d
+
+COCOAPODS: 1.5.0
