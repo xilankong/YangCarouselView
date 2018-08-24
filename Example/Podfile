@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YangCarouselView_Example' do
+  pod 'YangCarouselView', :path => '../'
+
+  target 'YangCarouselView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
